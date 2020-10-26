@@ -1,6 +1,16 @@
 # golang-study
+GOPATH
+GOROOT
+vi ~/.bash_profile
+source ~/.bash_profile
 
 #### 包管理
+
+go env -w GOBIN=/Users/len/go/bin
+go env -w GO111MODULE=on
+go env -w GOPROXY=https://goproxy.cn,direct // 使用七牛云的
+
+
 export GO111MODULE=on
 export GOPROXY=https://goproxy.io
 golang 1.12的朋友，确保实验目录不在 GOPATH 中。

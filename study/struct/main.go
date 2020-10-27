@@ -1,7 +1,6 @@
 package main
 
 import (
-	"encoding/json"
 	"fmt"
 )
 
@@ -13,10 +12,10 @@ func main() {
 	cat1.Hobby = "吃"
 
 	fmt.Println(cat1)
-//创建结构体变量和访问结构体字段
-//1.方式 1-直接声明
-//案例演示: var person Person 前面我们已经说了。
-//方式 2-{}
+	//创建结构体变量和访问结构体字段
+	//1.方式 1-直接声明
+	//案例演示: var person Person 前面我们已经说了。
+	//方式 2-{}
 
 	p2 := Cat{"hhh", 20, "黑", "吃"}
 	fmt.Println(p2)

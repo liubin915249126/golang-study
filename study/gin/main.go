@@ -1,8 +1,9 @@
 package main
 
 import (
+	get "testGin/router"
+
 	"github.com/gin-gonic/gin"
-	"testGin/router"
 )
 
 func main() {

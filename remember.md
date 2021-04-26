@@ -16,3 +16,6 @@ https://github.com/astaxie/build-web-application-with-golang/blob/master/zh/pref
 [the-way-to-go](https://learnku.com/docs/the-way-to-go)(https://juejin.im/post/6894839822762901511#heading-11)
 
 [collection](https://juejin.im/post/6896255508983283719#heading-8)
+
+#### go-gin-api
+https://github.com/xinliangnote/go-gin-api
